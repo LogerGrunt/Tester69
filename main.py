@@ -82,7 +82,7 @@ if "fonts" not in os.listdir("."):
 async def on_ready():
     await bot.change_presence(
         status=discord.Status.online,
-        activity=discord.Game(f"/help | https://discord.gg/VsDDf8YKBV"),
+        activity=discord.Game(f"/help | discord.gg/VsDDf8YKBV"),
     )
 
     try:
